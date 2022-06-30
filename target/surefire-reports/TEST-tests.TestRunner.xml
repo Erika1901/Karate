@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="15" failures="0" name="tests.TestRunner" time="13.62" errors="3" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\bin"/>
+    <property name="java.vm.version" value="25.281-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Pawk68\OneDrive\Documents\karate\Projects\karatePro"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Pawk68\OneDrive\Documents\karate\Projects\karatePro"/>
+    <property name="java.runtime.version" value="1.8.0_281-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Pawk68\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\Pawk68\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_281\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_281\bin;C:\Users\Pawk68\Documents\apache-maven-3.6.3\bin;C:\Program Files\nodejs\;C:\Users\Pawk68\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Users\Pawk68\AppData\Local\Microsoft\WindowsApps;;C:\Users\Pawk68\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Pawk68\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Users\Pawk68\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\Pawk68\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\Pawk68"/>
+    <property name="user.timezone" value="Africa/Luanda"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Pawk68"/>
+    <property name="java.class.path" value="C:\Users\Pawk68\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_281\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_281"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_281\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_281\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_281\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Pawk68\Downloads\apache-maven-3.8.4-bin\apache-maven-3.8.4"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="[tests\/configDemo1] Config demo" name="[1:7] Config demo 1" time="0.025"/>
+  <testcase classname="[tests\/configDemo1] Config demo" name="[2:12] Get Demo 1" time="2.279">
+    <error message="status code was: 404, expected: 200, response time in milliseconds: 1395, url: https://reqres.in/api/default/users%3Fpage=2, response: 
+{}
+classpath:tests/configDemo1.feature:15" type="com.intuit.karate.KarateException">com.intuit.karate.KarateException: status code was: 404, expected: 200, response time in milliseconds: 1395, url: https://reqres.in/api/default/users%3Fpage=2, response: 
+{}
+classpath:tests/configDemo1.feature:15
+	at &lt;feature&gt;.: Then status 200 (classpath:tests/configDemo1.feature:15:15)
+</error>
+    <system-out>16:30:24.928 [main] INFO com.intuit.karate - The value of env is: null 
+16:30:25.745 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
+16:30:25.759 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:30:25.761 [main] DEBUG com.intuit.karate - request:
+1 &gt; GET https://reqres.in/api/default/users%3Fpage=2
+1 &gt; Accept: application/json
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+16:30:25.763 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}-&gt;https://reqres.in:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+16:30:25.784 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 0][route: {s}-&gt;https://reqres.in:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+16:30:25.788 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}-&gt;https://reqres.in:443
+16:30:25.943 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to reqres.in/104.26.11.213:443
+16:30:25.943 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to reqres.in/104.26.11.213:443 with timeout 5000
+16:30:26.494 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.2, TLSv1.1, TLSv1]
+16:30:26.494 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+16:30:26.494 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+16:30:26.837 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+16:30:26.837 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+16:30:26.837 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+16:30:26.837 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=sni.cloudflaressl.com, O=&quot;Cloudflare, Inc.&quot;, L=San Francisco, ST=California, C=US
+16:30:26.838 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.reqres.in, reqres.in, sni.cloudflaressl.com]
+16:30:26.838 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=Cloudflare Inc ECC CA-3, O=&quot;Cloudflare, Inc.&quot;, C=US
+16:30:26.842 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.100.86:62629&lt;-&gt;104.26.11.213:443
+16:30:26.842 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 5000
+16:30:26.842 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request GET /api/default/users%3Fpage=2 HTTP/1.1
+16:30:26.842 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+16:30:26.842 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+16:30:26.843 [main] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; GET /api/default/users%3Fpage=2 HTTP/1.1
+16:30:26.844 [main] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; Accept: application/json
+16:30:26.844 [main] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; Host: reqres.in
+16:30:26.844 [main] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; Connection: Keep-Alive
+16:30:26.844 [main] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+16:30:26.844 [main] DEBUG org.apache.http.headers - http-outgoing-0 &gt;&gt; Accept-Encoding: gzip,deflate
+16:30:26.844 [main] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;GET /api/default/users%3Fpage=2 HTTP/1.1[\r][\n]&quot;
+16:30:26.844 [main] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Accept: application/json[\r][\n]&quot;
+16:30:26.844 [main] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Host: reqres.in[\r][\n]&quot;
+16:30:26.844 [main] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+16:30:26.844 [main] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)[\r][\n]&quot;
+16:30:26.844 [main] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+16:30:26.844 [main] DEBUG org.apache.http.wire - http-outgoing-0 &gt;&gt; &quot;[\r][\n]&quot;
+16:30:27.140 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;HTTP/1.1 404 Not Found[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Date: Fri, 17 Jun 2022 15:30:25 GMT[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Content-Length: 2[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;X-Powered-By: Express[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Access-Control-Allow-Origin: *[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Via: 1.1 vegur[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Cache-Control: max-age=14400[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;CF-Cache-Status: EXPIRED[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;[\r][\n]&quot;
+16:30:27.141 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=gMDqe20aFcyTXNwPyqdNB%2FLLsL8tYYVEpIs0i3D7G2o9Bhg23TpGe3SRo5ZvhNP%2B9a8DlSbVXob1D5NmDwy%2BWj%2BeD71kdFZmf7tE62%2BpPkMK%2F5xO1Ptpe%2BuAIQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}[\r][\n]&quot;
+16:30:27.142 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}[\r][\n]&quot;
+16:30:27.142 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Vary: Accept-Encoding[\r][\n]&quot;
+16:30:27.142 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;Server: cloudflare[\r][\n]&quot;
+16:30:27.142 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;CF-RAY: 71ccd38e8ba303f2-LIS[\r][\n]&quot;
+16:30:27.142 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;[\r][\n]&quot;
+16:30:27.142 [main] DEBUG org.apache.http.wire - http-outgoing-0 &lt;&lt; &quot;{}&quot;
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; HTTP/1.1 404 Not Found
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Date: Fri, 17 Jun 2022 15:30:25 GMT
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Content-Type: application/json; charset=utf-8
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Content-Length: 2
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Connection: keep-alive
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; X-Powered-By: Express
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Access-Control-Allow-Origin: *
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Via: 1.1 vegur
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Cache-Control: max-age=14400
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; CF-Cache-Status: EXPIRED
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=gMDqe20aFcyTXNwPyqdNB%2FLLsL8tYYVEpIs0i3D7G2o9Bhg23TpGe3SRo5ZvhNP%2B9a8DlSbVXob1D5NmDwy%2BWj%2BeD71kdFZmf7tE62%2BpPkMK%2F5xO1Ptpe%2BuAIQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Vary: Accept-Encoding
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; Server: cloudflare
+16:30:27.147 [main] DEBUG org.apache.http.headers - http-outgoing-0 &lt;&lt; CF-RAY: 71ccd38e8ba303f2-LIS
+16:30:27.154 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+16:30:27.156 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 0][route: {s}-&gt;https://reqres.in:443] can be kept alive indefinitely
+16:30:27.156 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-0: set socket timeout to 0
+16:30:27.156 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 0][route: {s}-&gt;https://reqres.in:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+16:30:27.159 [main] DEBUG com.intuit.karate - response time in milliseconds: 1395
+1 &lt; 404
+1 &lt; Date: Fri, 17 Jun 2022 15:30:25 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 2
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; Cache-Control: max-age=14400
+1 &lt; CF-Cache-Status: EXPIRED
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=gMDqe20aFcyTXNwPyqdNB%2FLLsL8tYYVEpIs0i3D7G2o9Bhg23TpGe3SRo5ZvhNP%2B9a8DlSbVXob1D5NmDwy%2BWj%2BeD71kdFZmf7tE62%2BpPkMK%2F5xO1Ptpe%2BuAIQ%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Vary: Accept-Encoding
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 71ccd38e8ba303f2-LIS
+{}
+
+16:30:27.204 [main] ERROR com.intuit.karate - classpath:tests/configDemo1.feature:15
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 1395, url: https://reqres.in/api/default/users%3Fpage=2, response: 
+{}
+classpath:tests/configDemo1.feature:15
+</system-out>
+  </testcase>
+  <testcase classname="[tests\/Delete] Delete API Demo" name="[1:3] Delete demo 1" time="0.638"/>
+  <testcase classname="[tests\/FirstTest] Sample API Tests" name="[1:3] Test a sample Get API" time="0.399"/>
+  <testcase classname="[tests\/Get] Get API Demo" name="[1:8] Get Demo 1" time="1.332"/>
+  <testcase classname="[tests\/Get] Get API Demo" name="[2:19] Get Demo 2" time="0.433"/>
+  <testcase classname="[tests\/Get] Get API Demo" name="[3:26] Get Demo 3" time="0.333"/>
+  <testcase classname="[tests\/Get] Get API Demo" name="[4:34] Get Demo 4" time="0.351"/>
+  <testcase classname="[tests\/Post] Post API Demo" name="[1:9] Post Demo 1" time="0.563"/>
+  <testcase classname="[tests\/Post] Post API Demo" name="[2:17] Post Demo 2" time="0.467"/>
+  <testcase classname="[tests\/Post] Post API Demo" name="[3:25] Post Demo 3" time="0.435"/>
+  <testcase classname="[tests\/Post] Post API Demo" name="[4:34] Post Demo 4" time="0.414"/>
+  <testcase classname="[tests\/Post] Post API Demo" name="[5:44] Post Demo 5" time="0.447">
+    <error message="match failed: EQUALS
+  $ | not equal | actual does not contain key - &apos;name&apos; (MAP:MAP)
+  {&quot;id&quot;:&quot;187&quot;,&quot;createdAt&quot;:&quot;2022-06-17T15:30:32.886Z&quot;}
+  {&quot;id&quot;:&quot;#string&quot;,&quot;createdAt&quot;:&quot;#ignore&quot;,&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;teacher&quot;}
+
+
+classpath:tests/Post.feature:54" type="com.intuit.karate.KarateException">com.intuit.karate.KarateException: match failed: EQUALS
+  $ | not equal | actual does not contain key - &apos;name&apos; (MAP:MAP)
+  {&quot;id&quot;:&quot;187&quot;,&quot;createdAt&quot;:&quot;2022-06-17T15:30:32.886Z&quot;}
+  {&quot;id&quot;:&quot;#string&quot;,&quot;createdAt&quot;:&quot;#ignore&quot;,&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;teacher&quot;}
+
+
+classpath:tests/Post.feature:54
+	at &lt;feature&gt;.: And match response == expectedOutput (classpath:tests/Post.feature:54:54)
+</error>
+    <system-out>16:30:33.732 [main] INFO com.intuit.karate - The value of env is: null 
+16:30:33.733 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+16:30:33.735 [main] INFO com.intuit.karate - [print] C:\Users\Pawk68\OneDrive\Documents\karate\Projects\karatePro 
+16:30:33.737 [main] INFO com.intuit.karate - [print] C:\Users\Pawk68\OneDrive\Documents\karate\Projects\karateProsrc	estjava	estsequest1.json 
+16:30:33.738 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
+16:30:33.738 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:30:33.738 [main] DEBUG com.intuit.karate - request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; Accept: application/json
+1 &gt; Content-Type: text/plain; charset=UTF-8
+1 &gt; Content-Length: 89
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 &gt; Accept-Encoding: gzip,deflate
+C:\Users\Pawk68\OneDrive\Documents\karate\Projects\karateProsrc	estjava	estsequest1.json
+
+16:30:33.738 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}-&gt;https://reqres.in:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+16:30:33.738 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 11][route: {s}-&gt;https://reqres.in:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+16:30:33.738 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}-&gt;https://reqres.in:443
+16:30:33.739 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to reqres.in/104.26.11.213:443
+16:30:33.739 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to reqres.in/104.26.11.213:443 with timeout 5000
+16:30:33.843 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.2, TLSv1.1, TLSv1]
+16:30:33.844 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+16:30:33.844 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+16:30:33.958 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+16:30:33.958 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+16:30:33.958 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+16:30:33.958 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=sni.cloudflaressl.com, O=&quot;Cloudflare, Inc.&quot;, L=San Francisco, ST=California, C=US
+16:30:33.958 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.reqres.in, reqres.in, sni.cloudflaressl.com]
+16:30:33.958 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=Cloudflare Inc ECC CA-3, O=&quot;Cloudflare, Inc.&quot;, C=US
+16:30:33.958 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.100.86:62653&lt;-&gt;104.26.11.213:443
+16:30:33.958 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-11: set socket timeout to 5000
+16:30:33.958 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /api/users HTTP/1.1
+16:30:33.958 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+16:30:33.958 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+16:30:33.958 [main] DEBUG org.apache.http.headers - http-outgoing-11 &gt;&gt; POST /api/users HTTP/1.1
+16:30:33.958 [main] DEBUG org.apache.http.headers - http-outgoing-11 &gt;&gt; Accept: application/json
+16:30:33.958 [main] DEBUG org.apache.http.headers - http-outgoing-11 &gt;&gt; Content-Type: text/plain; charset=UTF-8
+16:30:33.958 [main] DEBUG org.apache.http.headers - http-outgoing-11 &gt;&gt; Content-Length: 89
+16:30:33.958 [main] DEBUG org.apache.http.headers - http-outgoing-11 &gt;&gt; Host: reqres.in
+16:30:33.958 [main] DEBUG org.apache.http.headers - http-outgoing-11 &gt;&gt; Connection: Keep-Alive
+16:30:33.958 [main] DEBUG org.apache.http.headers - http-outgoing-11 &gt;&gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+16:30:33.958 [main] DEBUG org.apache.http.headers - http-outgoing-11 &gt;&gt; Accept-Encoding: gzip,deflate
+16:30:33.958 [main] DEBUG org.apache.http.wire - http-outgoing-11 &gt;&gt; &quot;POST /api/users HTTP/1.1[\r][\n]&quot;
+16:30:33.959 [main] DEBUG org.apache.http.wire - http-outgoing-11 &gt;&gt; &quot;Accept: application/json[\r][\n]&quot;
+16:30:33.959 [main] DEBUG org.apache.http.wire - http-outgoing-11 &gt;&gt; &quot;Content-Type: text/plain; charset=UTF-8[\r][\n]&quot;
+16:30:33.959 [main] DEBUG org.apache.http.wire - http-outgoing-11 &gt;&gt; &quot;Content-Length: 89[\r][\n]&quot;
+16:30:33.959 [main] DEBUG org.apache.http.wire - http-outgoing-11 &gt;&gt; &quot;Host: reqres.in[\r][\n]&quot;
+16:30:33.959 [main] DEBUG org.apache.http.wire - http-outgoing-11 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+16:30:33.959 [main] DEBUG org.apache.http.wire - http-outgoing-11 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)[\r][\n]&quot;
+16:30:33.959 [main] DEBUG org.apache.http.wire - http-outgoing-11 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+16:30:33.959 [main] DEBUG org.apache.http.wire - http-outgoing-11 &gt;&gt; &quot;[\r][\n]&quot;
+16:30:33.959 [main] DEBUG org.apache.http.wire - http-outgoing-11 &gt;&gt; &quot;C:\Users\Pawk68\OneDrive\Documents\karate\Projects\karateProsrc[0x9]estjava[0x9]ests[\r]equest1.json&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;HTTP/1.1 201 Created[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;Date: Fri, 17 Jun 2022 15:30:32 GMT[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;Content-Length: 51[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;X-Powered-By: Express[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;Access-Control-Allow-Origin: *[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;Etag: W/&quot;33-eZX1omPCHxF8KLCnMNMUdAUi8wc&quot;[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;Via: 1.1 vegur[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;CF-Cache-Status: DYNAMIC[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=PGwPs0RtcDDcbcnCJ5FoRyXuZVVutW6Dp2QzFZ5%2BmoGIVIKWPsesQSNIN9dSMHRyzuKZVL4CDWo4EIp1KUJDm9zzLJsQWKrlw2dDjF%2BJAequRd4eILsHg66S0w%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;Server: cloudflare[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;CF-RAY: 71ccd3bb095a94fa-LIS[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;[\r][\n]&quot;
+16:30:34.160 [main] DEBUG org.apache.http.wire - http-outgoing-11 &lt;&lt; &quot;{&quot;id&quot;:&quot;187&quot;,&quot;createdAt&quot;:&quot;2022-06-17T15:30:32.886Z&quot;}&quot;
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; HTTP/1.1 201 Created
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; Date: Fri, 17 Jun 2022 15:30:32 GMT
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; Content-Type: application/json; charset=utf-8
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; Content-Length: 51
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; Connection: keep-alive
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; X-Powered-By: Express
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; Access-Control-Allow-Origin: *
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; Etag: W/&quot;33-eZX1omPCHxF8KLCnMNMUdAUi8wc&quot;
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; Via: 1.1 vegur
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; CF-Cache-Status: DYNAMIC
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=PGwPs0RtcDDcbcnCJ5FoRyXuZVVutW6Dp2QzFZ5%2BmoGIVIKWPsesQSNIN9dSMHRyzuKZVL4CDWo4EIp1KUJDm9zzLJsQWKrlw2dDjF%2BJAequRd4eILsHg66S0w%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; Server: cloudflare
+16:30:34.160 [main] DEBUG org.apache.http.headers - http-outgoing-11 &lt;&lt; CF-RAY: 71ccd3bb095a94fa-LIS
+16:30:34.160 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+16:30:34.161 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 11][route: {s}-&gt;https://reqres.in:443] can be kept alive indefinitely
+16:30:34.161 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-11: set socket timeout to 0
+16:30:34.161 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 11][route: {s}-&gt;https://reqres.in:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+16:30:34.161 [main] DEBUG com.intuit.karate - response time in milliseconds: 423
+1 &lt; 201
+1 &lt; Date: Fri, 17 Jun 2022 15:30:32 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 51
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;33-eZX1omPCHxF8KLCnMNMUdAUi8wc&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=PGwPs0RtcDDcbcnCJ5FoRyXuZVVutW6Dp2QzFZ5%2BmoGIVIKWPsesQSNIN9dSMHRyzuKZVL4CDWo4EIp1KUJDm9zzLJsQWKrlw2dDjF%2BJAequRd4eILsHg66S0w%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 71ccd3bb095a94fa-LIS
+{&quot;id&quot;:&quot;187&quot;,&quot;createdAt&quot;:&quot;2022-06-17T15:30:32.886Z&quot;}
+
+16:30:34.163 [main] ERROR com.intuit.karate - classpath:tests/Post.feature:54
+And match response == expectedOutput
+match failed: EQUALS
+  $ | not equal | actual does not contain key - &apos;name&apos; (MAP:MAP)
+  {&quot;id&quot;:&quot;187&quot;,&quot;createdAt&quot;:&quot;2022-06-17T15:30:32.886Z&quot;}
+  {&quot;id&quot;:&quot;#string&quot;,&quot;createdAt&quot;:&quot;#ignore&quot;,&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;teacher&quot;}
+
+
+classpath:tests/Post.feature:54
+</system-out>
+  </testcase>
+  <testcase classname="[tests\/Post] Post API Demo" name="[6:59] Post Demo 6" time="0.438">
+    <error message="match failed: EQUALS
+  $ | not equal | match failed for name: &apos;job&apos; (MAP:MAP)
+  {&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;engineer&quot;,&quot;id&quot;:&quot;581&quot;,&quot;createdAt&quot;:&quot;2022-06-17T15:30:33.310Z&quot;}
+  {&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;teacher&quot;,&quot;id&quot;:&quot;#string&quot;,&quot;createdAt&quot;:&quot;#ignore&quot;}
+
+    $.job | not equal (STRING:STRING)
+    &apos;engineer&apos;
+    &apos;teacher&apos;
+
+classpath:tests/Post.feature:66" type="com.intuit.karate.KarateException">com.intuit.karate.KarateException: match failed: EQUALS
+  $ | not equal | match failed for name: &apos;job&apos; (MAP:MAP)
+  {&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;engineer&quot;,&quot;id&quot;:&quot;581&quot;,&quot;createdAt&quot;:&quot;2022-06-17T15:30:33.310Z&quot;}
+  {&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;teacher&quot;,&quot;id&quot;:&quot;#string&quot;,&quot;createdAt&quot;:&quot;#ignore&quot;}
+
+    $.job | not equal (STRING:STRING)
+    &apos;engineer&apos;
+    &apos;teacher&apos;
+
+classpath:tests/Post.feature:66
+	at &lt;feature&gt;.: And match response == expectedOutput (classpath:tests/Post.feature:66:66)
+</error>
+    <system-out>16:30:34.165 [main] INFO com.intuit.karate - The value of env is: null 
+16:30:34.168 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+16:30:34.169 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+16:30:34.170 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $[&apos;job&apos;]
+16:30:34.171 [main] DEBUG com.jayway.jsonpath.internal.path.CompiledPath - Evaluating path: $
+16:30:34.171 [main] DEBUG com.jayway.jsonpath.internal.JsonContext - Put path $ key job value engineer
+16:30:34.173 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: karate
+16:30:34.174 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+16:30:34.174 [main] DEBUG com.intuit.karate - request:
+1 &gt; POST https://reqres.in/api/users
+1 &gt; Accept: application/json
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 34
+1 &gt; Host: reqres.in
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;engineer&quot;}
+
+16:30:34.174 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection request: [route: {s}-&gt;https://reqres.in:443][total available: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+16:30:34.174 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection leased: [id: 12][route: {s}-&gt;https://reqres.in:443][total available: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+16:30:34.174 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Opening connection {s}-&gt;https://reqres.in:443
+16:30:34.175 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connecting to reqres.in/104.26.11.213:443
+16:30:34.175 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Connecting socket to reqres.in/104.26.11.213:443 with timeout 5000
+16:30:34.277 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.2, TLSv1.1, TLSv1]
+16:30:34.277 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+16:30:34.277 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Starting handshake
+16:30:34.380 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory - Secure session established
+16:30:34.380 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.2
+16:30:34.380 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256
+16:30:34.380 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer principal: CN=sni.cloudflaressl.com, O=&quot;Cloudflare, Inc.&quot;, L=San Francisco, ST=California, C=US
+16:30:34.380 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  peer alternative names: [*.reqres.in, reqres.in, sni.cloudflaressl.com]
+16:30:34.380 [main] DEBUG org.apache.http.conn.ssl.SSLConnectionSocketFactory -  issuer principal: CN=Cloudflare Inc ECC CA-3, O=&quot;Cloudflare, Inc.&quot;, C=US
+16:30:34.380 [main] DEBUG org.apache.http.impl.conn.DefaultHttpClientConnectionOperator - Connection established 192.168.100.86:62654&lt;-&gt;104.26.11.213:443
+16:30:34.380 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-12: set socket timeout to 5000
+16:30:34.380 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Executing request POST /api/users HTTP/1.1
+16:30:34.380 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+16:30:34.380 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+16:30:34.380 [main] DEBUG org.apache.http.headers - http-outgoing-12 &gt;&gt; POST /api/users HTTP/1.1
+16:30:34.380 [main] DEBUG org.apache.http.headers - http-outgoing-12 &gt;&gt; Accept: application/json
+16:30:34.380 [main] DEBUG org.apache.http.headers - http-outgoing-12 &gt;&gt; Content-Type: application/json; charset=UTF-8
+16:30:34.380 [main] DEBUG org.apache.http.headers - http-outgoing-12 &gt;&gt; Content-Length: 34
+16:30:34.380 [main] DEBUG org.apache.http.headers - http-outgoing-12 &gt;&gt; Host: reqres.in
+16:30:34.380 [main] DEBUG org.apache.http.headers - http-outgoing-12 &gt;&gt; Connection: Keep-Alive
+16:30:34.380 [main] DEBUG org.apache.http.headers - http-outgoing-12 &gt;&gt; User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)
+16:30:34.380 [main] DEBUG org.apache.http.headers - http-outgoing-12 &gt;&gt; Accept-Encoding: gzip,deflate
+16:30:34.380 [main] DEBUG org.apache.http.wire - http-outgoing-12 &gt;&gt; &quot;POST /api/users HTTP/1.1[\r][\n]&quot;
+16:30:34.380 [main] DEBUG org.apache.http.wire - http-outgoing-12 &gt;&gt; &quot;Accept: application/json[\r][\n]&quot;
+16:30:34.380 [main] DEBUG org.apache.http.wire - http-outgoing-12 &gt;&gt; &quot;Content-Type: application/json; charset=UTF-8[\r][\n]&quot;
+16:30:34.380 [main] DEBUG org.apache.http.wire - http-outgoing-12 &gt;&gt; &quot;Content-Length: 34[\r][\n]&quot;
+16:30:34.380 [main] DEBUG org.apache.http.wire - http-outgoing-12 &gt;&gt; &quot;Host: reqres.in[\r][\n]&quot;
+16:30:34.380 [main] DEBUG org.apache.http.wire - http-outgoing-12 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+16:30:34.380 [main] DEBUG org.apache.http.wire - http-outgoing-12 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.13 (Java/1.8.0_281)[\r][\n]&quot;
+16:30:34.380 [main] DEBUG org.apache.http.wire - http-outgoing-12 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+16:30:34.380 [main] DEBUG org.apache.http.wire - http-outgoing-12 &gt;&gt; &quot;[\r][\n]&quot;
+16:30:34.380 [main] DEBUG org.apache.http.wire - http-outgoing-12 &gt;&gt; &quot;{&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;engineer&quot;}&quot;
+16:30:34.598 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;HTTP/1.1 201 Created[\r][\n]&quot;
+16:30:34.598 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;Date: Fri, 17 Jun 2022 15:30:33 GMT[\r][\n]&quot;
+16:30:34.598 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
+16:30:34.598 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;Content-Length: 84[\r][\n]&quot;
+16:30:34.598 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;Connection: keep-alive[\r][\n]&quot;
+16:30:34.598 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;X-Powered-By: Express[\r][\n]&quot;
+16:30:34.598 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;Access-Control-Allow-Origin: *[\r][\n]&quot;
+16:30:34.598 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;Etag: W/&quot;54-4sGSxUrJSdZxs4G41Jv3xk0EvH8&quot;[\r][\n]&quot;
+16:30:34.598 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;Via: 1.1 vegur[\r][\n]&quot;
+16:30:34.598 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;CF-Cache-Status: DYNAMIC[\r][\n]&quot;
+16:30:34.598 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;[\r][\n]&quot;
+16:30:34.599 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=5gysvGpsAYUyllmEL1%2BAyPImoiLcmxQGZjEDHVUoV2qMJLCoin5pkmpITQhsnL4UZlkqCRdUioQNZOeZXZcfF4tOwdOcv7NSu5k18sG3vidcuH9BEmewNuob0Q%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}[\r][\n]&quot;
+16:30:34.599 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}[\r][\n]&quot;
+16:30:34.599 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;Server: cloudflare[\r][\n]&quot;
+16:30:34.599 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;CF-RAY: 71ccd3bdabe494f4-LIS[\r][\n]&quot;
+16:30:34.599 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;[\r][\n]&quot;
+16:30:34.599 [main] DEBUG org.apache.http.wire - http-outgoing-12 &lt;&lt; &quot;{&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;engineer&quot;,&quot;id&quot;:&quot;581&quot;,&quot;createdAt&quot;:&quot;2022-06-17T15:30:33.310Z&quot;}&quot;
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; HTTP/1.1 201 Created
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; Date: Fri, 17 Jun 2022 15:30:33 GMT
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; Content-Type: application/json; charset=utf-8
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; Content-Length: 84
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; Connection: keep-alive
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; X-Powered-By: Express
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; Access-Control-Allow-Origin: *
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; Etag: W/&quot;54-4sGSxUrJSdZxs4G41Jv3xk0EvH8&quot;
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; Via: 1.1 vegur
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; CF-Cache-Status: DYNAMIC
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=5gysvGpsAYUyllmEL1%2BAyPImoiLcmxQGZjEDHVUoV2qMJLCoin5pkmpITQhsnL4UZlkqCRdUioQNZOeZXZcfF4tOwdOcv7NSu5k18sG3vidcuH9BEmewNuob0Q%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; Server: cloudflare
+16:30:34.599 [main] DEBUG org.apache.http.headers - http-outgoing-12 &lt;&lt; CF-RAY: 71ccd3bdabe494f4-LIS
+16:30:34.599 [main] DEBUG org.apache.http.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+16:30:34.599 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection [id: 12][route: {s}-&gt;https://reqres.in:443] can be kept alive indefinitely
+16:30:34.599 [main] DEBUG org.apache.http.impl.conn.DefaultManagedHttpClientConnection - http-outgoing-12: set socket timeout to 0
+16:30:34.600 [main] DEBUG org.apache.http.impl.conn.PoolingHttpClientConnectionManager - Connection released: [id: 12][route: {s}-&gt;https://reqres.in:443][total available: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+16:30:34.600 [main] DEBUG com.intuit.karate - response time in milliseconds: 426
+1 &lt; 201
+1 &lt; Date: Fri, 17 Jun 2022 15:30:33 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Content-Length: 84
+1 &lt; Connection: keep-alive
+1 &lt; X-Powered-By: Express
+1 &lt; Access-Control-Allow-Origin: *
+1 &lt; Etag: W/&quot;54-4sGSxUrJSdZxs4G41Jv3xk0EvH8&quot;
+1 &lt; Via: 1.1 vegur
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=5gysvGpsAYUyllmEL1%2BAyPImoiLcmxQGZjEDHVUoV2qMJLCoin5pkmpITQhsnL4UZlkqCRdUioQNZOeZXZcfF4tOwdOcv7NSu5k18sG3vidcuH9BEmewNuob0Q%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 71ccd3bdabe494f4-LIS
+{&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;engineer&quot;,&quot;id&quot;:&quot;581&quot;,&quot;createdAt&quot;:&quot;2022-06-17T15:30:33.310Z&quot;}
+
+16:30:34.602 [main] ERROR com.intuit.karate - classpath:tests/Post.feature:66
+And match response == expectedOutput
+match failed: EQUALS
+  $ | not equal | match failed for name: &apos;job&apos; (MAP:MAP)
+  {&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;engineer&quot;,&quot;id&quot;:&quot;581&quot;,&quot;createdAt&quot;:&quot;2022-06-17T15:30:33.310Z&quot;}
+  {&quot;name&quot;:&quot;Malika&quot;,&quot;job&quot;:&quot;teacher&quot;,&quot;id&quot;:&quot;#string&quot;,&quot;createdAt&quot;:&quot;#ignore&quot;}
+
+    $.job | not equal (STRING:STRING)
+    &apos;engineer&apos;
+    &apos;teacher&apos;
+
+classpath:tests/Post.feature:66
+</system-out>
+  </testcase>
+  <testcase classname="[tests\/Put] PUT API Demo" name="[1:4] Put demo 1" time="1.034"/>
+</testsuite>

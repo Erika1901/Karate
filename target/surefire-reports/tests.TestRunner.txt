@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: tests.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 13.621 sec <<< FAILURE!
+[2:12] Get Demo 1([tests\/configDemo1] Config demo)  Time elapsed: 2.279 sec  <<< ERROR!
+com.intuit.karate.KarateException: status code was: 404, expected: 200, response time in milliseconds: 1395, url: https://reqres.in/api/default/users%3Fpage=2, response: 
+{}
+classpath:tests/configDemo1.feature:15
+	at <feature>.: Then status 200 (classpath:tests/configDemo1.feature:15:15)
+[5:44] Post Demo 5([tests\/Post] Post API Demo)  Time elapsed: 0.447 sec  <<< ERROR!
+com.intuit.karate.KarateException: match failed: EQUALS
+  $ | not equal | actual does not contain key - 'name' (MAP:MAP)
+  {"id":"187","createdAt":"2022-06-17T15:30:32.886Z"}
+  {"id":"#string","createdAt":"#ignore","name":"Malika","job":"teacher"}
+
+
+classpath:tests/Post.feature:54
+	at <feature>.: And match response == expectedOutput (classpath:tests/Post.feature:54:54)
+[6:59] Post Demo 6([tests\/Post] Post API Demo)  Time elapsed: 0.438 sec  <<< ERROR!
+com.intuit.karate.KarateException: match failed: EQUALS
+  $ | not equal | match failed for name: 'job' (MAP:MAP)
+  {"name":"Malika","job":"engineer","id":"581","createdAt":"2022-06-17T15:30:33.310Z"}
+  {"name":"Malika","job":"teacher","id":"#string","createdAt":"#ignore"}
+
+    $.job | not equal (STRING:STRING)
+    'engineer'
+    'teacher'
+
+classpath:tests/Post.feature:66
+	at <feature>.: And match response == expectedOutput (classpath:tests/Post.feature:66:66)
